@@ -5,9 +5,9 @@
   inflections/inflections {:mvn/version "0.13.0"}
   clj-fuzzy/clj-fuzzy     {:mvn/version "0.4.1"}
   http-kit/http-kit       {:mvn/version "2.3.0"}
-  org.clojure/tools.deps  {:mvn/version "0.18.1354"}
-  #_#_tools.deps.alpha       {:git/url "https://github.com/clojure/tools.deps.alpha"
-                              :sha     "884d7ae5b9c228ff795e4385291708102f1cd46d"}
+  #_#_org.clojure/tools.deps  {:mvn/version "0.18.1354"}
+  tools.deps.alpha       {:git/url "https://github.com/clojure/tools.deps.alpha"
+                          :sha     "884d7ae5b9c228ff795e4385291708102f1cd46d"}
   org.clojure/spec.alpha {:mvn/version "0.1.143"}
   org.clojure/data.priority-map {:mvn/version "0.0.9"}}
 
