@@ -5,12 +5,10 @@
   inflections/inflections {:mvn/version "0.13.0"}
   clj-fuzzy/clj-fuzzy     {:mvn/version "0.4.1"}
   http-kit/http-kit       {:mvn/version "2.3.0"}
-  #_#_org.clojure/tools.deps  {:mvn/version "0.18.1354"}
-  tools.deps.alpha       {:git/url "https://github.com/clojure/tools.deps.alpha"
-                          :sha     "884d7ae5b9c228ff795e4385291708102f1cd46d"}
-  org.clojure/spec.alpha {:mvn/version "0.1.143"}
-  org.clojure/data.priority-map {:mvn/version "0.0.9"}}
+  org.clojure/tools.deps {:mvn/version "0.23.1512"}}
+;; ---------------------------------------------------------
 
+;; ---------------------------------------------------------
  :aliases
  {:debug
   {:extra-deps {com.clojure-goes-fast/clj-async-profiler {:mvn/version "0.1.3"}
@@ -26,3 +24,14 @@
                  :sha     "76568540e7f40268ad2b646110f237a60295fa3c"}}
    :main-opts  ["-m" "cognitect.test-runner"
                 "-d" "test"]}}}
+;; ---------------------------------------------------------
+
+;; ---------------------------------------------------------
+;; Using org.clojure/tools.deps library:
+;;
+;; Cloning: https://github.com/practicalli-johnny/clj-find-library
+;; Checking out: https://github.com/practicalli-johnny/clj-find-library at 0ce1265aaa92ed94f1483b9a8d57c0fae151a48e
+;; Execution error (FileNotFoundException) at find-deps.core/eval138$loading (core.clj:1).
+;; Could not locate clojure/tools/deps/alpha/script/parse__init.class, clojure/tools/deps/alpha/script/parse.clj or clojure/tools/deps/alpha/script/parse.cljc on classpath.
+;; Updated to org.clojure/tools.deps
+;; ---------------------------------------------------------
